@@ -1,7 +1,7 @@
 Test suite PruebasEnHaskell-test: RUNNING...
 Bowling tests
   toFrames
-    zeros are open 0 0: OK
+    zeros are open 0 0: OK (0.01s)
     ones are open 1 1:  FAIL
       test\Tests.hs:26:
       expected: [Open 1 1,Open 1 1,Open 1 1,Open 1 1,Open 1 1,Open 1 1,Open 1 1,Open 1 1,Open 1 1,Open 1 1]
@@ -13,6 +13,6 @@ Bowling tests
        but got: [Open 0 0,Open 0 0,Open 0 0,Open 0 0,Open 0 0,Open 0 0,Open 0 0,Open 0 0,Open 0 0,Open 0 0]
       Use -p '/4+5s are open 4 5/' to rerun this test only.
 
-2 out of 3 tests failed (0.00s)
+2 out of 3 tests failed (0.03s)
 Test suite PruebasEnHaskell-test: FAIL
 Test suite logged to: C:\Users\Oscar\Documents\funcional\HaskellAplicaciones\PruebasEnHaskell\dist-newstyle\build\x86_64-windows\ghc-9.4.8\PruebasEnHaskell-0.1.0.0\t\PruebasEnHaskell-test\test\PruebasEnHaskell-0.1.0.0-PruebasEnHaskell-test.log

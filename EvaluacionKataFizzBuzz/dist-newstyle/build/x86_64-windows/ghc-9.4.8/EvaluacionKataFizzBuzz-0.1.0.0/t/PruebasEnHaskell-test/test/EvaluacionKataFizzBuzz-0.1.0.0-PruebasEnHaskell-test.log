@@ -1,0 +1,39 @@
+Test suite PruebasEnHaskell-test: RUNNING...
+FizzBuzz tests
+  Prueba con n£mero primo:           OK
+  Prueba con n£mero no primo:        FAIL
+    test\Tests.hs:10:
+    expected: "ciento setenta y ocho"
+     but got: " cientos setenta y ocho"
+    Use -p '$0=="FizzBuzz tests.Prueba con n£mero no primo"' to rerun this test only.
+  Prueba con n£mero cero:            OK
+  Prueba con n£mero negativo:        OK
+  Prueba con n£mero veinte:          FAIL
+    test\Tests.hs:16:
+    expected: "veinte"
+     but got: "veinti cero"
+    Use -p '/Prueba con n£mero veinte/' to rerun this test only.
+  Prueba con n£mero veintiuno:       FAIL
+    test\Tests.hs:18:
+    expected: "veintiuno"
+     but got: "veinti uno"
+    Use -p '/Prueba con n£mero veintiuno/' to rerun this test only.
+  Prueba con n£mero cien:            FAIL
+    test\Tests.hs:20:
+    expected: "cien"
+     but got: "cientos"
+    Use -p '/Prueba con n£mero cien/' to rerun this test only.
+  Prueba con n£mero mil:             FAIL
+    test\Tests.hs:22:
+    expected: "mil"
+     but got: "mil cero"
+    Use -p '/Prueba con n£mero mil/' to rerun this test only.
+  Prueba con n£mero no primo grande: FAIL
+    test\Tests.hs:24:
+    expected: "novecientos ochenta y siete mil seiscientos cincuenta y cuatro"
+     but got: "noventa cientos ochenta y siete mil sesenta cientos cincuenta y cuatro"
+    Use -p '/Prueba con n£mero no primo grande/' to rerun this test only.
+
+6 out of 9 tests failed (0.01s)
+Test suite PruebasEnHaskell-test: FAIL
+Test suite logged to: C:\Users\Oscar\Documents\funcional\HaskellAplicaciones\EvaluacionKataFizzBuzz\dist-newstyle\build\x86_64-windows\ghc-9.4.8\EvaluacionKataFizzBuzz-0.1.0.0\t\PruebasEnHaskell-test\test\EvaluacionKataFizzBuzz-0.1.0.0-PruebasEnHaskell-test.log
